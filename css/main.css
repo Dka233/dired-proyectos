@@ -88,11 +88,10 @@ textarea {
    ========================================================================== */
  /** Logo y fondo **/
    body {
+    background-image: url(../img/bg-container.jpg);
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
     width: 100%;
-    background: url(../img/bg-container.jpg) no-repeat 50% 50%;
-    background-size: cover;
   }
 
 
@@ -104,8 +103,6 @@ textarea {
     background-position: top center;
   }
   .fondo {
-    background-image: url(../img/bg-container.jpg);
-    height: 100vh;
     background-size: cover;
     background-position: top center;
   }
@@ -231,6 +228,7 @@ nav ul li a {
     color: #fff;
     display: none;
 }
+
 
 @media(max-width: 786px) {
 

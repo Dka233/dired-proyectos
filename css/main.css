@@ -162,10 +162,18 @@ textarea {
   .button-contacto {
     margin-top: 50px;
   }
+
+  .contenedor-contacto {
+    padding-bottom: 50px;
+    padding-left: 30px;
+  }
+
+  .lista {
+    padding-bottom: 5px;
+  }
+
+
   /** nuevo menu **/
-
- 
-
 
 .logo {
     line-height: 60px;

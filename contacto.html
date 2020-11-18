@@ -56,84 +56,85 @@
 </head>
 
 <body>
-  
-  <header>
-    <nav class="black">
-      <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
-      </div>
-      <div class="logo">
-        <a class="navbar-brand" href="/index.html">
-          <img src="./img/DiRed B.png" width="70" height="50" alt="" loading="lazy">
-        </a>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <div class="container">
-        <div class="header-site">
-            <h1 class="titulo-seccion">Contacto</h1>
-            <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">Si desea más información no dude en ponerse en Contacto
-                con nosotros a través de los siguientes medios:
-            </p>
+  <div class="fondo">
+
+    <header>
+      <nav class="black">
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
         </div>
-  </div>
-
-  <div class="row contenedor-contacto">
-        <div class="col-sm lista">
-            <div class="col-sm lista">
-                <a href="tel:606148869"><i class="fas fa-phone"></i> + 34 606 14 88 69 (David)</a>
-              </div>
-            <div class="col-sm lista">
-            <a href="tel:672068503"><i class="fas fa-phone"></i> + 34 672 06 85 03 (Douglas)</a>
-            </div>
-            <div class="col-sm lista">
-            <p><a href="mailto:douglas.garcia.shaevka@gmail.com?subject=Solicitud de Contacto" target="_blank"><i
-            class="fas fa-envelope"></i> info@diredproyectos.com</a></p>
-            </div>
+        <div class="logo">
+          <a class="navbar-brand" href="/index.html">
+            <img src="./img/DiRed B.png" width="70" height="50" alt="" loading="lazy">
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="header-site">
+        <h1 class="titulo-seccion">Contacto</h1>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Si desea más información no dude en ponerse en Contacto
+          con nosotros a través de los siguientes medios:
+        </p>
       </div>
+    </div>
+
+    <div class="row contenedor-contacto">
+      <div class="col-sm lista">
+        <div class="col-sm lista">
+          <a href="tel:606148869"><i class="fas fa-phone"></i> + 34 606 14 88 69 (David)</a>
+        </div>
+        <div class="col-sm lista">
+          <a href="tel:672068503"><i class="fas fa-phone"></i> + 34 672 06 85 03 (Douglas)</a>
+        </div>
+        <div class="col-sm lista">
+          <p><a href="mailto:douglas.garcia.shaevka@gmail.com?subject=Solicitud de Contacto" target="_blank"><i
+                class="fas fa-envelope"></i> info@diredproyectos.com</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <form class="contact1-form validate-form" id="contact-form" name="contact-form"
+      action="https://formspree.io/f/mrgoloyg" method="POST">
+      <div class="wrap-input1 validate-input" data-validate="Name is required">
+        <input class="input1" type="text" name="name" placeholder="Name">
+        <span class="shadow-input1"></span>
+      </div>
+
+      <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+        <input class="input1" type="text" name="email" placeholder="Email">
+        <span class="shadow-input1"></span>
+      </div>
+
+      <div class="wrap-input1 validate-input" data-validate="Subject is required">
+        <input class="input1" type="text" name="subject" placeholder="Subject">
+        <span class="shadow-input1"></span>
+      </div>
+
+      <div class="wrap-input1 validate-input" data-validate="Message is required">
+        <textarea class="input1" name="message" placeholder="Message"></textarea>
+        <span class="shadow-input1"></span>
+      </div>
+
+      <div class="container-contact1-form-btn">
+        <button class="contact1-form-btn">
+          <span>
+            Send Email
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </span>
+        </button>
+      </div>
+    </form>
   </div>
-
-
-  <form class="contact1-form validate-form" id="contact-form" name="contact-form"
-    action="https://formspree.io/f/mrgoloyg" method="POST">
-    <div class="wrap-input1 validate-input" data-validate="Name is required">
-      <input class="input1" type="text" name="name" placeholder="Name">
-      <span class="shadow-input1"></span>
-    </div>
-
-    <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-      <input class="input1" type="text" name="email" placeholder="Email">
-      <span class="shadow-input1"></span>
-    </div>
-
-    <div class="wrap-input1 validate-input" data-validate="Subject is required">
-      <input class="input1" type="text" name="subject" placeholder="Subject">
-      <span class="shadow-input1"></span>
-    </div>
-
-    <div class="wrap-input1 validate-input" data-validate="Message is required">
-      <textarea class="input1" name="message" placeholder="Message"></textarea>
-      <span class="shadow-input1"></span>
-    </div>
-
-    <div class="container-contact1-form-btn">
-      <button class="contact1-form-btn">
-        <span>
-          Send Email
-          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-        </span>
-      </button>
-    </div>
-  </form>
-
 
   <!-- Cookies -->
   <script type="text/javascript" id="cookiebanner"

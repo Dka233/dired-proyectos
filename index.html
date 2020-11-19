@@ -26,7 +26,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
   <!-- Google Font -->
   <link
@@ -37,7 +39,6 @@
 </head>
 
 <body>
-  <div class="fondo">
   <header>
     <nav class="black">
       <div class="menu-icon">
@@ -45,41 +46,48 @@
       </div>
       <div class="logo">
         <a class="navbar-brand" href="/index.html">
-          <i class="fas fa-satellite-dish icono" ></i><img src="./img/DiRed B.png" width="70" height="50" alt="" loading="lazy">
+          <i class="fas fa-satellite-dish icono"></i><img src="./img/DiRed B.png" width="70" height="50" alt=""
+            loading="lazy">
         </a>
       </div>
       <div class="menu">
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
+          <a href="index.html">
+            <li>Inicio</li>
+          </a>
+          <a href="sobre-nosotros.html">
+            <li>Sobre Nosotros</li>
+          </a>
+          <a href="contacto.html">
+            <li>Contacto</li>
+          </a>
         </ul>
       </div>
     </nav>
   </header>
-  <div class="logo-2">
-    <img class="imagen" src="./img/DiRed Fondo transparente (400x400).png" alt="logo">
-  </div>
-  <div class="container">
-    <div class="header-site">
-      <h1 class="font-italic titulo">"Los buenos ingenieros se miden en los malos momentos"</h1>
+  <div class="fondo-index">
+    <div class="logo-2">
+      <img class="imagen" src="./img/DiRed Fondo transparente (400x400).png" alt="logo">
+    </div>
+    <div class="container">
+      <div class="header-site">
+        <h1 class="font-italic titulo">"Los buenos ingenieros se miden en los malos momentos"</h1>
+      </div>
+    </div>
+    <div class="button-container row">
+      <div class="col"></div>
+      <div class="col">
+        <button type="button" class="btn btn-primary btn-sm"><a class="button-color"
+            href="/sobre-nosotros.html">Conócenos</a></button>
+      </div>
+      <div class="col"></div>
     </div>
   </div>
-  <div class="button-container row">
-    <div class="col"></div>
-    <div class="col">
-      <button type="button" class="btn btn-primary btn-sm"><a class="button-color"
-          href="/sobre-nosotros.html">Conócenos</a></button>
-    </div>
-    <div class="col"></div>
-  </div>
-</div>
-     <!-- Cookies -->
+  <!-- Cookies -->
   <script type="text/javascript" id="cookiebanner"
-  src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"
-  data-height="50px"
-  data-message="Usamos cookies para mejorar tu experiencia, al continuar aceptas la política de cookies"
-  > </script>
+    src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js" data-height="50px"
+    data-position="button"
+    data-message="Usamos cookies para mejorar tu experiencia, al continuar aceptas la política de cookies"> </script>
   <!-- Javascript Files -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
@@ -94,21 +102,21 @@
   <!-- Jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script>
-    $(document).ready(function() {
-    $(".menu-icon").on("click", function() {
-          $("nav ul").toggleClass("showing");
+    $(document).ready(function () {
+      $(".menu-icon").on("click", function () {
+        $("nav ul").toggleClass("showing");
+      });
     });
-});
 
-// Scrolling Effect
+    // Scrolling Effect
 
-$(window).on("scroll", function() {
-    if($(window).scrollTop()) {
-          $('nav').addClass('black');
-    }
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
 
-    
-})
+
+    })
   </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

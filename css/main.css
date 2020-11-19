@@ -89,7 +89,7 @@ textarea {
  /** Logo y fondo **/
    body {
     font-family: 'Open Sans', sans-serif;
-    background: url(../img/bg-container.jpg);
+    background: url(../img/bg-container.jpg) 50% 50%;
     background-size: cover;
     
   }
@@ -103,13 +103,21 @@ textarea {
     background-position: top center;
   }
   .fondo {
-
     /*height: 100vh;*/
     background-size: cover;
     background-position: top center;
-    padding-bottom: 200px;
   }
-
+  .fondo-index {
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 20px;
+  }
+  .fondo-nosotros {
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 25px;
+  }
   .imagen {
     max-width: 100%;
   }
@@ -164,8 +172,13 @@ textarea {
   }
 
   .contenedor-contacto {
+    margin-top: 30px;
     padding-bottom: 50px;
     padding-left: 30px;
+  }
+
+  .contenedor-contacto h3 {
+    margin-bottom: 20px;
   }
 
   .lista {
@@ -212,6 +225,11 @@ textarea {
   color: #1a1a1a;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.container-2 .title-2 a{
+  color: #1a1a1a;
+
 }
 
 .content {

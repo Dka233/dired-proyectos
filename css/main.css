@@ -97,7 +97,7 @@ textarea {
 
 
   .logo-2 {
-    padding-top: 70px;
+    padding-top: 80px;
     height: 50vh;
     background-size: cover;
     background-position: top center;
@@ -113,7 +113,7 @@ textarea {
     background-position: top center;
     margin-bottom: 20px;
   }
-  .fondo-nosotros {
+  .fondo-nosotros { 
     background-size: cover;
     background-position: top center;
     margin-bottom: 25px;
@@ -144,6 +144,10 @@ textarea {
   .center {
     text-align: center;
   }
+
+  .no-center {
+    text-align: left!important;
+  }
   .contenido {
     text-align: center;
   }
@@ -170,6 +174,9 @@ textarea {
   .button-contacto {
     margin-top: 50px;
   }
+  .button-contacto-nosotros {
+    margin-top: 30px;
+  }
 
   .contenedor-contacto {
     margin-top: 30px;
@@ -186,8 +193,9 @@ textarea {
   }
 
   .icono {
+    position: relative;
     color:#fff;
-    padding-right: 5px;
+    margin-right: 5px;
     font-size: 1.5rem;
   }
 
@@ -263,6 +271,13 @@ textarea {
   width: 100%;
 }
 
+.content-image-nosotros{
+  margin: 10px;
+  width: 50%;
+  float: left;
+}
+
+
 .content-details {
   position: absolute;
   text-align: center;
@@ -328,6 +343,11 @@ textarea {
     letter-spacing: 2px;
 }
 
+
+.navbar-brand {
+  margin-bottom: 10px;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -375,6 +395,9 @@ nav ul li a {
     cursor: pointer;
     color: #fff;
     display: none;
+}
+.menu-icon i {
+ padding-top: 25px;
 }
 
 

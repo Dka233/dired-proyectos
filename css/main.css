@@ -206,7 +206,18 @@ textarea {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  .grid-valoracion {
+    margin: 0 auto;
+    width: 550px;
+    max-width: 100%;
+  }
   
+  .formycont {
+    margin: 0 auto;
+    width: 400px;
+    max-width: 100%;
+  }
 
   .button-contacto-nosotros {
     margin-top: 140px;
